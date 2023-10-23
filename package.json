@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev:serve": "http-server ./"
+    "dev:serve": "http-server ./ -c-1"
   },
   "keywords": [],
   "author": "",
