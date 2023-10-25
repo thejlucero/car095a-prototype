@@ -4,11 +4,13 @@ body {
     margin: 0;
     padding: 0;
 
-    background: #111;
+    background: #ffffff;
 }
 
 header {
-    padding: 20px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,7 +18,7 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(210, 225, 241);
     border: 1px solid #333;
     border-top: 0;
     border-left: 0;
@@ -33,18 +35,18 @@ header {
 .header-text {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #hero-text {
     font-family: 'Gabarito', sans-serif;
     font-size: 60px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #hero-desc {
     font-family: 'Roboto', sans-serif;
-    color: gray;
+    color: rgb(138, 138, 138);
     font-size: 16px;
 }
 
@@ -67,19 +69,19 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #222;
-    border: 1px solid #444;
-
+    background: #fafafa;
     padding: 10px;
     border-radius: 10px;
 
     gap: 15px;
+
+    box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.1);
 }
 
 .hero-feature-title {
     font-family: "Gabarito", sans-serif;
     font-size: 21px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .hero-feature-desc {
@@ -97,7 +99,7 @@ header {
 }
 
 .hero-features {
-    width: 760px;
+    width: 660px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -138,24 +140,25 @@ header {
 
     gap: 5px;
 
-    background: #111;
-    border: 1px solid #777;
+    background: #ffffff;
     padding: 10px;
     box-sizing: border-box;
 
     border-radius: 10px;
+
+    box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.1);
 }
 
 .story-title {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .story-desc {
     font-family: "Inter", sans-serif;
     font-size: 12px;
-    color: white;
+    color: rgb(61, 61, 61);
 }
 
 .story-img {
@@ -165,13 +168,13 @@ header {
 .explore-title {
     font-family: "Gabarito", sans-serif;
     font-size: 60px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .ending-title {
     font-family: "Gabarito", sans-serif;
     font-size: 60px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .ending-desc {
@@ -190,28 +193,118 @@ header {
 
 .pricing-table {
     width: 40%;
-    background: #111;
+    background: #ffffff;
+    box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.1);
+}
+
+.tagline-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.tagline-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    padding: 120px;
+    gap: 10px;
+}
+
+#tagline-title {
+    font-family: "Gabarito", sans-serif;
+    font-size: 70px;
+
+    color: white;
+
+    margin-top: auto;
+}
+
+#tagline-subtitle {
+    font-family: "Gabarito", sans-serif;
+    font-size: 40px;
+    color:white;
+
+    margin-top: auto;
+}
+
+.videobg {
+    object-fit: cover;
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+
+    z-index: -1;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 10px 100px 10px 100px;
+    box-sizing: border-box;
+
+    background: #dfdfdf;
+    gap: 15px;
+}
+
+.footer-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 8px;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-disclaimer {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 16px;
 }
 
 table, th, td {
-    border: 1px solid #555;
+    border: 1px solid #d8d8d8;
 }
 
 th {
-    color: white;
+    color: rgb(31, 31, 31);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 
 td {
     padding: 10px;
-    color: white;
+    color: rgb(27, 27, 27);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 
 a {
-    color: white;
+    color: rgb(56, 56, 56);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
