@@ -444,4 +444,6 @@ a {
 .notice-text {
     font-family: "Roboto", sans-serif;
     font-size: 25px;
+
+    width: 40%;
 }
