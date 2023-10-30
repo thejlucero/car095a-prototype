@@ -5,6 +5,7 @@ body {
     padding: 0;
 
     background: #ffffff;
+    overflow-x: hidden;
 }
 
 header {
@@ -313,4 +314,134 @@ a {
     color: rgb(56, 56, 56);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+}
+
+/*
+    about.html
+*/
+
+.about-section {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    gap: 60px;
+}
+
+.about-story {
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    box-sizing: border-box;
+}
+
+.about-story-img {
+    width: 30%;
+    margin-right: auto;
+}
+
+.about-story-img-alt {
+    width: 30%;
+    margin-left: auto;
+}
+
+.about-story-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 30px;
+}
+
+.about-story-title {
+    font-family: "Gabarito", sans-serif;
+    font-size: 60px;
+}
+
+.about-story-content {
+    width: 600px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+/*
+    contact.html
+*/
+
+.contact-section {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: center;
+
+    gap: 0;
+}
+
+.number-sections {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 10px;
+}
+
+.social-sections {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 10px;
+}
+
+.number-title {
+    font-family: "Gabarito", sans-serif;
+    font-size: 30px;
+}
+
+.number-phone {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+/*
+    openings.html
+    */
+
+.notice-section {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-title {
+    font-family: "Gabarito", sans-serif;
+    font-size: 60px;
+}
+
+.notice-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
 }
